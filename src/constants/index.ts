@@ -1,5 +1,5 @@
-import { ChainId } from '../enums'
 import JSBI from 'jsbi'
+import { ChainId } from '../enums'
 
 export * from './addresses'
 export * from './kashi'
@@ -18,10 +18,10 @@ export const INIT_CODE_HASH: { [chainId: number]: string } = {
   [ChainId.KOVAN]: '0xe18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303',
   [ChainId.FANTOM]: '0xe18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303',
   [ChainId.MATIC]: '0xe18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303',
-  [ChainId.MATIC_TESTNET]: '0xe18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303',
+  [ChainId.MATIC_TESTNET]: '0x5c972da6c6208a0a5c6fd0c37d26d1565be70e3abfbc85cf3fef4922a112f25b',
   [ChainId.XDAI]: '0xe18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303',
   [ChainId.BSC]: '0xe18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303',
-  [ChainId.BSC_TESTNET]: '0xe18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303',
+  [ChainId.BSC_TESTNET]: '0x5c972da6c6208a0a5c6fd0c37d26d1565be70e3abfbc85cf3fef4922a112f25b',
   [ChainId.ARBITRUM]: '0xe18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303',
   [ChainId.MOONBEAM_TESTNET]: '0xe18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303',
   [ChainId.AVALANCHE]: '0xe18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303',
